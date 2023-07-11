@@ -1,0 +1,20 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Vesperæ pro festo Sanctissimæ Innocentium
+id: MH 548
+genre: vesper
+scoring: 2 S, A (solo), 2 S, A (tutti), 2 cor (F), 2 vl, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: D-Mbs
+    shelfmark: Mus.ms. 4166 (5)
+    date: 1793-12-08
+    rism: 455022684
+    url: https://mdz-nbn-resolving.de/urn:nbn:de:bvb:12-bsb00141239-3
+    license: CC BY-NC-SA 4.0
+    principal: true
+imslp:
+parts:
+  cor12: Corno I, II in F
