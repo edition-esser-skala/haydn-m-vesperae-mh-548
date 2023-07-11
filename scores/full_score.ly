@@ -3,14 +3,24 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+\paper {
+  top-system-spacing.basic-distance = #10
+  top-system-spacing.minimum-distance = #10
+  top-markup-spacing.basic-distance = #0
+  top-markup-spacing.minimum-distance = #0
+  markup-system-spacing.basic-distance = #10
+  markup-system-spacing.minimum-distance = #10
+  systems-per-page = #2
+}
+
 \book {
   \bookpart {
     \section "1" "Dixit Dominus"
-    % \addTocEntry
-    \paper { indent = 3\cm }
+    \addTocEntry
+    \paper { indent = 3\cm page-count = #9 }
     \score { %\articulate
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "F" ""
             % \transpose c f
@@ -59,7 +69,7 @@
         \new FiguredBass { \DixitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
