@@ -72,54 +72,110 @@
   %     \midi { \tempo 4 = 70 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Confitebor"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \ConfiteborViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \ConfiteborViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 1"
+  %           \new Voice = "SopranoI" { \dynamicUp \ConfiteborSopranoI }
+  %         }
+  %         \new Lyrics \lyricsto SopranoI \ConfiteborSopranoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoII" { \dynamicUp \ConfiteborSopranoII }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \ConfiteborSopranoIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \ConfiteborAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \ConfiteborOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \ConfiteborBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Confitebor"
+    \section "3" "Beatus vir"
     \addTocEntry
     \score { %\articulate
       <<
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "C" "" "alto" "1, 2" }
+            \partCombine #'(0 . 10) \BeatusCornoI \BeatusCornoII
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \ConfiteborViolinoI
+              \BeatusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \ConfiteborViolinoII
+              \BeatusViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S 1"
-            \new Voice = "SopranoI" { \dynamicUp \ConfiteborSopranoI }
+            \new Voice = "SopranoI" { \dynamicUp \BeatusSopranoI }
           }
-          \new Lyrics \lyricsto SopranoI \ConfiteborSopranoILyrics
+          \new Lyrics \lyricsto SopranoI \BeatusSopranoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoII" { \dynamicUp \ConfiteborSopranoII }
+            \new Voice = "SopranoII" { \dynamicUp \BeatusSopranoII }
           }
-          \new Lyrics \lyricsto SopranoII \ConfiteborSopranoIILyrics
+          \new Lyrics \lyricsto SopranoII \BeatusSopranoIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \ConfiteborAlto }
+            \new Voice = "Alto" { \dynamicUp \BeatusAlto }
           }
-          \new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
+          \new Lyrics \lyricsto Alto \BeatusAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \ConfiteborOrgano
+            \BeatusOrgano
           }
         >>
-        \new FiguredBass { \ConfiteborBassFigures }
+        \new FiguredBass { \BeatusBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 80 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

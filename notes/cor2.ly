@@ -61,3 +61,96 @@ DixitCornoII = {
     c,4 r r2\fermata \bar "|." %62 finis
   }
 }
+
+BeatusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoBeatus
+    e4\fE r r
+    r r g
+    g r r
+    r r g
+    g c,8 e c e %5
+    g4 g c,8 e
+    g4 g8 g c, e
+    g g16 g g4 r
+    R2.*3 %11
+    g4 g8 g d'4
+    r8 g, g g g4
+    r8 c c c c4
+    r8 g g d' c4 %15
+    g g8 g g g
+    c,4 c r
+    r r g'
+    g c, r
+    r r g' %20
+    g r r
+    r c, r
+    r c r
+    R2.
+    e4 c8 c g' g %25
+    e4 c8 c c c
+    c4 r r
+    c r r
+    R2.*5 %33
+    r4 g'\fE g
+    g r r %35
+    R2.*2
+    g,2.\p
+    g4 r r
+    g2. %40
+    g4 r r
+    g' g g
+    e r r
+    R2.*2 %45
+    r4 g,\f r
+    r g r
+    R2.
+    g8 g g g g g
+    g4 r r %50
+    g r r
+    R2.*2
+    c8 c c c c c
+    c4 r e %55
+    c r r
+    R2.
+    e8 e e e e e
+    e4 r r
+    R2.*27 %86
+    r4 g\fE c,
+    g'8 g, g g g g
+    g4 r r
+    g r r %90
+    g8 g16 g g8 g g g
+    g' g16 g g8 g g g
+    c,4-! g'-! r
+    c,2.\p
+    R2.*2 %96
+    g'4 c, r
+    c g' r
+    R2.
+    e4\f r r %100
+    r r g
+    g r r
+    r r g8 g
+    g4 c,8 e c e
+    g4 g c,8 e %105
+    g4 g8 g c, e
+    g g16 g g4 r
+    R2.
+    g2.
+    c, %110
+    g4. g'8 g g
+    c,4 r8 c' c c
+    c4 r8 c c c
+    d4 c8 e, g g
+    e4 c r %115
+    r c r
+    R2.
+    r4 c r
+    r c r
+    R2. %120
+    e4 c8 c g' g
+    e4 r r\fermata \bar "|." %122 finis
+  }
+}
