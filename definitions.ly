@@ -7,6 +7,7 @@
 
 
 tempoDixit = \tempoMarkup "Maestoso"
+tempoConfitebor = \tempoMarkup "Vivace"
 
 
 \include "notes/cor1.ly"

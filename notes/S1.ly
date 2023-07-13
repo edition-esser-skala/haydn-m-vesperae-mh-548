@@ -116,3 +116,246 @@ DixitSopranoILyrics = \lyricmode {
   men, a -- men, a -- %60
   men. %61 finis
 }
+
+ConfiteborSopranoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \minor \time 2/2 \autoBeamOff \tempoConfitebor
+    \mvTr a'4\fE^\tuttiE a c a
+    e'1
+    e
+    e4. d8 c4 c
+    d f f f %5
+    f e r2
+    d f
+    f4. e8 e4 e
+    e2 d4 d
+    c e d c %10
+    c h r2
+    R1
+    c
+    a
+    f4 f8 f fis4. fis8 %15
+    g4 r d' e
+    f!2 e4 e
+    d2 c
+    h4 c f e
+    e d r g, %20
+    c c8 c c4 c
+    a a a a8 a
+    f4 f fis2
+    g4 r d' d
+    g4. g8 e2 %25
+    f d
+    e1
+    e2. e4
+    d d8 d d4. d8
+    c4 r r2 %30
+    R1*2
+    r4 \mvTr g\pE^\solo g2~
+    g4 a8 h c4 d
+    e2 f %35
+    g4 e c c
+    h2( a)
+    g4 r r \mvTr c\p^\tutti
+    h2( a4) a
+    g r r e' %40
+    e2( d4) f
+    f2( e4) g
+    g2( f4.) f8
+    e4 r r2
+    \mvTr a,2.\pE^\solo d4 %45
+    g,2 a4 h
+    c( d) e f
+    e( d) r2
+    R1
+    r2 d4 d %50
+    d2 a4 c
+    c4. h8 h4 d~
+    d e d c
+    c h r h
+    h2 e %55
+    c4 gis a e'
+    e2.( d4)
+    c2 r4 a
+    d2 e
+    f2. e4 %60
+    d( c!) h a
+    a gis r2
+    R1
+    r2 \mvTr h4\fE^\tutti h
+    c2 c4 e %65
+    e d d c
+    c4. h8 h4 r
+    h2 h4 h
+    h( e) dis e
+    h1 %70
+    h2 r
+    c4. c8 h2
+    r r4 e~
+    e fis e( dis8.) e16
+    e4 r r2 %75
+    R1*14 %89
+    r2 \mvTr g,\fE^\tuttiE %90
+    g2. h4
+    d2 c
+    R1*10 %102
+    r2 \mvTr b~\fE^\tuttiE
+    b g
+    es d %105
+    cis4 b'8 b b4 b
+    b a r a
+    c!4. c8 a2
+    f! e!
+    dis4 c'8 c c4 c %110
+    c8 h! h4 r2
+    R1*17 %128
+    \mvTr a2\fE^\tuttiE c4 a
+    e'1 %130
+    e2 e
+    e4. d8 c2
+    d4 f f f8 f
+    f4 e r2
+    d f %135
+    f4 e e e
+    e4. e8 d4 d
+    c e d( c)
+    h2 r
+    h h %140
+    e4 gis,8 gis gis4 gis
+    a2 a
+    d d
+    c4 d c( h)
+    a r r2 %145
+    r c(
+    h4) h h2
+    h4 r r2
+    r c(
+    h4) h h2 %150
+    a4 r e'2
+    c4 r f2
+    d4 r d2
+    h gis
+    a r %155
+    R1\fermata \bar "|." %156 finis
+  }
+}
+
+ConfiteborSopranoILyrics = \lyricmode {
+  Con -- fi -- te -- bor
+  ti --
+  bi,
+  Do -- mi -- ne, in
+  to -- to cor -- de %5
+  me -- o:
+  in con --
+  si -- li -- o iu --
+  sto -- rum, et
+  con -- gre -- ga -- ti -- %10
+  o -- ne.
+
+  Ma --
+  gna
+  o -- pe -- ra Do -- mi -- %15
+  ni, ex -- qui --
+  si -- ta in
+  o -- mnes
+  vo -- lun -- ta -- tes
+  e -- ius. Con -- %20
+  fes -- si -- o et ma --
+  gni -- fi -- cen -- ti -- a
+  o -- pus e --
+  ius, et iu --
+  sti -- ti -- a %25
+  e -- ius
+  ma --
+  net in
+  sae -- cu -- lum sae -- cu --
+  li. %30
+
+  Me -- mo -- %33
+  ri -- am fe -- cit
+  mi -- ra -- %35
+  bi -- li -- um su --
+  o --
+  rum, mi --
+  se -- ri --
+  cors et %40
+  mi -- se --
+  ra -- tor
+  Do -- mi --
+  nus:
+  e -- scam %45
+  de -- dit ti --
+  men -- ti -- bus
+  se. __
+
+  Me -- mor %50
+  e -- rit in
+  sae -- cu -- lum te --
+  sta -- men -- ti
+  su -- i: vir --
+  tu -- tem %55
+  o -- pe -- rum su --
+  o --
+  rum an --
+  nun -- ti --
+  a -- bit %60
+  po -- pu -- lo
+  su -- o:
+
+  ut det
+  il -- lis hae -- %65
+  re -- di -- ta -- tem
+  gen -- ti -- um:
+  o -- pe -- ra
+  ma -- nu -- um
+  e -- %70
+  ius
+  ve -- ri -- tas
+  et __
+  iu -- di -- ci --
+  um. %75
+
+  Re -- %90
+  dem -- pti --
+  o -- nem
+
+  San -- %103
+  ctum
+  et ter -- %105
+  ri -- bi -- le no -- men
+  e -- ius: i --
+  ni -- ti -- um
+  sa -- pi --
+  en -- ti -- ae ti -- mor %110
+  Do -- mi -- ni.
+
+  Glo -- ri -- a %129
+  Pa -- %130
+  tri et
+  Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto:
+  si -- cut %135
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc et sem --
+  per
+  et in %140
+  sae -- cu -- la sae -- cu --
+  lo -- rum,
+  a -- men,
+  a -- men, a --
+  men, %145
+  a --
+  men, a --
+  men,
+  a --
+  men, a -- %150
+  men, a --
+  men, a --
+  men, a --
+  _ _
+  men. %155
+}

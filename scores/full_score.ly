@@ -14,62 +14,112 @@
 }
 
 \book {
+  % \bookpart {
+  %   \section "1" "Dixit Dominus"
+  %   \addTocEntry
+  %   \paper { indent = 3\cm page-count = #9 }
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \transposedName "Corno I, II" "F" ""
+  %           % \transpose c f
+  %           \partCombine #'(0 . 10) \DixitCornoI \DixitCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "Violino"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "I"
+  %             \DixitViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "II"
+  %             \DixitViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \incipit "Soprano I" "soprano" #-19.5 #-1.8
+  %           \new Voice = "SopranoI" { \dynamicUp \DixitSopranoI }
+  %         }
+  %         \new Lyrics \lyricsto SopranoI \DixitSopranoILyrics
+
+  %         \new Staff {
+  %           \incipit "Soprano II" "soprano" #-20 #-1.8
+  %           \new Voice = "SopranoII" { \dynamicUp \DixitSopranoII }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \DixitSopranoIILyrics
+
+  %         \new Staff {
+  %           \incipitAlto
+  %           \new Voice = "Alto" { \dynamicUp \DixitAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DixitAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+  %           % \transpose c c,
+  %           \DixitOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DixitBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 70 }
+  %   }
+  % }
   \bookpart {
-    \section "1" "Dixit Dominus"
+    \section "2" "Confitebor"
     \addTocEntry
-    \paper { indent = 3\cm page-count = #9 }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff <<
-            \set Staff.instrumentName = \transposedName "Corno I, II" "F" ""
-            % \transpose c f
-            \partCombine #'(0 . 10) \DixitCornoI \DixitCornoII
-          >>
-        >>
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Violino"
+            \set GrandStaff.instrumentName = "vl"
             \new Staff {
-              \set Staff.instrumentName = "I"
-              \DixitViolinoI
+              \set Staff.instrumentName = "1"
+              \ConfiteborViolinoI
             }
             \new Staff {
-              \set Staff.instrumentName = "II"
-              \DixitViolinoII
+              \set Staff.instrumentName = "2"
+              \ConfiteborViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \incipit "Soprano I" "soprano" #-19.5 #-1.8
-            \new Voice = "SopranoI" { \dynamicUp \DixitSopranoI }
+            \set Staff.instrumentName = "S 1"
+            \new Voice = "SopranoI" { \dynamicUp \ConfiteborSopranoI }
           }
-          \new Lyrics \lyricsto SopranoI \DixitSopranoILyrics
+          \new Lyrics \lyricsto SopranoI \ConfiteborSopranoILyrics
 
           \new Staff {
-            \incipit "Soprano II" "soprano" #-20 #-1.8
-            \new Voice = "SopranoII" { \dynamicUp \DixitSopranoII }
+            \set Staff.instrumentName = "S 2"
+            \new Voice = "SopranoII" { \dynamicUp \ConfiteborSopranoII }
           }
-          \new Lyrics \lyricsto SopranoII \DixitSopranoIILyrics
+          \new Lyrics \lyricsto SopranoII \ConfiteborSopranoIILyrics
 
           \new Staff {
-            \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \DixitAlto }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \ConfiteborAlto }
           }
-          \new Lyrics \lyricsto Alto \DixitAltoLyrics
+          \new Lyrics \lyricsto Alto \ConfiteborAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DixitOrgano
+            \ConfiteborOrgano
           }
         >>
-        \new FiguredBass { \DixitBassFigures }
+        \new FiguredBass { \ConfiteborBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 70 }
+      \midi { \tempo 2 = 80 }
     }
   }
 }

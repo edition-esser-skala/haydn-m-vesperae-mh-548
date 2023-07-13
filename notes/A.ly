@@ -108,3 +108,227 @@ DixitAltoLyrics = \lyricmode {
   men, a -- men, a -- %60
   men. %61 finis
 }
+
+ConfiteborAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \minor \time 2/2 \autoBeamOff \tempoConfitebor
+    R1
+    \mvTr a4\fE^\tuttiE a c a
+    e'2 gis
+    a4. a,8 a4 a'
+    f d d d %5
+    a' a r2
+    f d
+    a'4. a8 a4 a
+    fis2 gis4 gis
+    a a d, dis %10
+    e e r2
+    R1
+    c'
+    a
+    f4 f8 f fis4. fis8 %15
+    g4 r g g
+    a2 g4 g
+    f!2 e
+    d4 c h c
+    g' g r g %20
+    c c8 c c4 c
+    a a a a8 a
+    f4 f fis2
+    g4 r g f
+    e4. e8 a2 %25
+    d, g
+    c,1
+    a'2. g4
+    f f8 f g4. g8
+    c,4 r r2 %30
+    R1*7 %37
+    r4 \mvTr c\p^\tuttiE c2~
+    c c
+    c4 g' g g %40
+    g1
+    g
+    h,2. h4
+    c r r2
+    R1*19 %63
+    r2 \mvTr e4\fE^\tuttiE e
+    a,2 a4 a' %65
+    fis fis fis fis
+    g4. g8 g4 r
+    dis( e) fis dis
+    e( g) fis e
+    dis( e fis dis) %70
+    e2 r
+    dis4. dis8 e2
+    r r4 g,(
+    c) a h4. h8
+    e4 r r2 %75
+    R1*14 %89
+    r2 \mvTr g\fE^\tuttiE %90
+    g2. h4
+    d2 c
+    R1*10 %102
+    r2 \mvTr b~\fE^\tuttiE
+    b g
+    es d %105
+    cis4 cis8 cis cis4 cis
+    d d r a'
+    c!4. c8 a2
+    f! e!
+    dis4 dis8 dis dis4 dis %110
+    e8 e e4 r2
+    r \mvTr e4\pE^\solo e
+    f2 e
+    f e
+    h'2. d8 h %115
+    c4 gis a c8 a
+    e2( d)
+    c4 r r a'
+    a( cis,) cis a'
+    a( d,) d( a') %120
+    \appoggiatura a2 g1
+    f2 r4 f
+    e1~
+    e4 gis a h
+    d2( c4.) c8 %125
+    h2 r
+    R1*3
+    \mvTr a,2\fE^\tutti c4 a %130
+    e'2 gis4 gis
+    a4. a,8 a2
+    f'4 d d d8 d
+    a'4 a r2
+    f d %135
+    a'4 a a a
+    fis4. fis8 gis4 gis
+    a e a,2
+    e' r
+    e e %140
+    d4 d8 d d4 d
+    c2 c
+    h gis'
+    a4 d, e2
+    a,4 r r2 %145
+    r c(
+    d4) d dis2
+    e4 r r2
+    r c(
+    d4) d e2 %150
+    a,4 r r2
+    a'1
+    f
+    e
+    a,2 r %155
+    R1\fermata \bar "|." %156 finis
+  }
+}
+
+ConfiteborAltoLyrics = \lyricmode {
+  Con -- fi -- te -- bor %2
+  ti -- bi,
+  Do -- mi -- ne, in
+  to -- to cor -- de %5
+  me -- o:
+  in con --
+  si -- li -- o iu --
+  sto -- rum, et
+  con -- gre -- ga -- ti -- %10
+  o -- ne.
+
+  Ma --
+  gna
+  o -- pe -- ra Do -- mi -- %15
+  ni, ex -- qui --
+  si -- ta in
+  o -- mnes
+  vo -- lun -- ta -- tes
+  e -- ius. Con -- %20
+  fes -- si -- o et ma --
+  gni -- fi -- cen -- ti -- a
+  o -- pus e --
+  ius, et iu --
+  sti -- ti -- a %25
+  e -- ius
+  ma --
+  net in
+  sae -- cu -- lum sae -- cu --
+  li. %30
+
+  Mi -- se -- %38
+  ri --
+  cors et mi -- se -- %40
+  ra --
+  tor
+  Do -- mi --
+  nus:
+
+  Ut det %64
+  il -- lis hae -- %65
+  re -- di -- ta -- tem
+  gen -- ti -- um:
+  o -- pe -- ra
+  ma -- nu -- um
+  e -- %70
+  ius
+  ve -- ri -- tas
+  et __
+  iu -- di -- ci --
+  um. %75
+
+  Re -- %90
+  dem -- pti --
+  o -- nem
+
+  San -- %103
+  ctum
+  et ter -- %105
+  ri -- bi -- le no -- men
+  e -- ius: i --
+  ni -- ti -- um
+  sa -- pi --
+  en -- ti -- ae ti -- mor %110
+  Do -- mi -- ni.
+  In -- tel --
+  le -- ctus
+  bo -- nus
+  o -- mni -- bus %115
+  fa -- ci -- en -- ti -- bus
+  e --
+  um: lau --
+  da -- ti -- o
+  e -- ius __ %120
+  ma --
+  net in
+  sae --
+  _ cu -- lum
+  sae -- cu -- %125
+  li.
+
+  Glo -- ri -- a %130
+  Pa -- tri et
+  Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto:
+  si -- cut %135
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc et sem --
+  per
+  et in %140
+  sae -- cu -- la sae -- cu --
+  lo -- rum,
+  a -- men,
+  a -- men, a --
+  men, %145
+  a --
+  men, a --
+  men,
+  a --
+  men, a -- %150
+  men,
+  a --
+  _
+  _
+  men. %155 finis
+}

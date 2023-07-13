@@ -68,3 +68,166 @@ DixitViolinoII = {
     <f a, f>4 r r2\fermata \bar "|." %62 finis
   }
 }
+
+ConfiteborViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \minor \time 2/2 \tempoConfitebor
+    a'4\fE a c a
+    e' e, r e'
+    e e, r d'
+    c4. h8 a4 a
+    a d d d %5
+    d c a'8 e c a
+    d,4 d' d d
+    d4. c8 c4 c
+    c2 h4 e,8 h'
+    a4 c h a %10
+    a gis a8 h c a
+    e'4 e, r <g! h>
+    <g c> e e e
+    e' c c c
+    d, a' c a %15
+    g8 h, d g h4 h
+    c c2 c4
+    h g2 g4
+    f e g c
+    c h d, d' %20
+    c8 e, e e g, e' e e
+    e' c c c e, c' c c
+    d, a' a a c a a a
+    g h, d g h4 h
+    e g a,8 cis e cis %25
+    d4 f g,8 h d h
+    c!4 e c,8 e c e
+    c'4 e e,8 c' e, c'
+    a4 c d, f
+    e g'8 g fis( g) a-! e-! %30
+    g( f) g-! d-! f( e) g-! c,-!
+    h( a) f'( d) d,4 h'
+    c r r e,\p
+    e2. h4
+    c2 c' %35
+    c g4 g
+    g2( f)
+    e4 e g g
+    g2( f)
+    e4 e( g c) %40
+    c2( h4) d
+    d2( c4) e
+    e2 d
+    c4 c, c c
+    c2 a' %45
+    d4 h( a) g
+    g( h) c d
+    c( h) r d8\f h
+    fis'( g) e c a'( a,) d c
+    c4\trill h r h\p %50
+    a fis d a'
+    a2 g4 h
+    a a2 a4
+    a g d( h')
+    gis( e') r h %55
+    c gis a c
+    h h r gis
+    a e r e8 cis
+    d4( f) a( cis)
+    d( a) r cis, %60
+    d e f fis
+    h, h r e\f
+    a, c'8 a f'( d) h a
+    gis( h) e e e4 r
+    e,8( c') e e e4 r %65
+    a8( a,) a' a a( d,) a' a,
+    a( g!) fis g g4 e'
+    h8( h') h h h4 r
+    h8( g) e h dis( h) e g
+    h, h' h h h4 r %70
+    h8( g) e h dis( h) e h
+    fis2 g4 h
+    dis2 e4 h
+    g c g( fis)
+    e h'8 h ais( h) c g %75
+    h( a) h fis a( g) h' e,
+    g( fis) a fis e4( dis)
+    e e,\p( g fis)
+    e h r h'
+    e, a a2 %80
+    g4 e r h'
+    a c a g
+    fis dis fis dis
+    h h2 e4
+    e c( e) g %85
+    g( fis) fis a
+    d, h' e, fis
+    g d'8\f d cis( d) g h,
+    d( cis) c c c( a') fis c
+    h4 h, d8 g h d %90
+    h4 d, g8 h d g
+    d4 h'8 h, c h c a
+    fis4 fis\p g a
+    g2. c4
+    c h d d, %95
+    d2 r4 h'
+    e,2~ e8 a h a
+    a4 c( h) a
+    g a g( fis)
+    g d'8\f d cis d e h %100
+    d c d a c h g' d
+    dis( e) c a g4( fis)
+    g g, b'2~
+    b g
+    es d %105
+    cis8 g' g g g g g g
+    g4 fis d'8 d, d d
+    c'!2 a
+    f! e!
+    dis8 a' a a a a a a %110
+    a4 gis e'8 e, e e
+    e4 h!\p h h
+    c2 h4 h
+    c2 h4 e
+    gis2 h %115
+    e,4 d e e
+    e1~
+    e4 a e r
+    cis1
+    d %120
+    e
+    f4 f( gis,) a
+    h gis'( a) gis
+    a e r gis
+    h2( a) %125
+    gis4 e'8\f e dis( e) h gis
+    dis'( e) c a f' d h a
+    gis h e, f e d c h
+    a4 a' c a
+    e' e, r e' %130
+    e e, r d'
+    c4. h8 a4 c
+    d d d d
+    d c a'8 e c a
+    d,4 d' d d %135
+    d c c, c'
+    c2 h4 e,8 h'
+    a4 h h( a)
+    gis gis a8 h c a
+    gis4 e' h gis %140
+    r h' gis e
+    r c' a e
+    r h' e,, h'
+    a f \once \slurDashed e( gis)
+    a e'8 e dis( e) f c %145
+    e( d) e h d( c) a' e
+    f( e) f d h( a) h a
+    gis4 e'8 e dis( e) f c
+    e( d) e h d( c) e a,
+    g!( f) d'( h) a4( gis) %150
+    a4 r c2(
+    a4) r d2(
+    h4) r h2(
+    gis) d
+    c4 c c c %155
+    c2 r\fermata \bar "|." %156 finis
+  }
+}
