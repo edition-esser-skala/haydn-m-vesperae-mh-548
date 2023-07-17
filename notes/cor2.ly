@@ -154,3 +154,105 @@ BeatusCornoII = {
     e4 r r\fermata \bar "|." %122 finis
   }
 }
+
+MementoCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoMemento
+    e4\fE c8 c e c'
+    g4 g r
+    c, c'8 c c c
+    d4 g, r
+    c, c8 c c c %5
+    c4 r r
+    g' c,8 c' c c
+    c4 g8 g g4
+    R2.*2 %10
+    r4 r d'
+    e8 d c c g g
+    e4 r r
+    R2.
+    e4 r g\p %15
+    c,2 r4
+    R2.
+    r4 c c
+    g2.~
+    g~ %20
+    g4 d'' c
+    c g r
+    R2.*2
+    r4 g g %25
+    d'2.~
+    d~
+    d4 r r
+    R2.*8 %36
+    r4 g,2\f
+    c4 d8 d d d
+    g,4 r g,
+    g r g %40
+    g r g'
+    d' r r
+    d r r
+    r d d
+    g, r r %45
+    c, e8 e e e
+    e4 r r
+    R2.*2
+    r4 e e %50
+    e c8 c c c
+    c4 r r
+    R2.*6 %58
+    c4 c r
+    c c r %60
+    c2.\p
+    c
+    R2.*22 %84
+    r4 r c\fE %85
+    c r r
+    c r r
+    R2.*3 %90
+    r4 c c8 c
+    c4 r r
+    R2.*8 %100
+    r4 g\p g
+    g r r
+    r c c
+    c r r
+    R2.*10 %114
+    r4 g'8\f g g g %115
+    c,4 g' r
+    g, g'8 g g g
+    c,4 g' r
+    g, r r
+    R2.*2 %121
+    g'2.\p
+    c,4 r r
+    r r8 g'\f g g
+    e4 c8 c e c' %125
+    g4 g r
+    c, c'8 c c c
+    d4 g, r
+    c, c8 c c c
+    c4 r d' %130
+    g, c,8 c' c c
+    c4 g8 g g4
+    R2.*2
+    r4 r d' %135
+    e8 d c c g g
+    e4 c8 c' c c
+    c4 r r
+    r8 g g g g g
+    c,4 r r %140
+    r8 c c c c' c
+    d4 r r
+    r8 g, g g g d'
+    e d c4 g
+    e e r %145
+    r c' g
+    g8 c c4 r
+    r c g8 g
+    e4 r e
+    g8 g g g g g %150
+    e4 c r\fermata \bar "|." %151 finis
+  }
+}

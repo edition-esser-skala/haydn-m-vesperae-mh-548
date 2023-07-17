@@ -608,3 +608,247 @@ DeProfundisAltoLyrics = \lyricmode {
   men, a -- men, a --
   men. %49 finis
 }
+
+MementoAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoMemento
+    r8 \mvTr g'\fE^\tuttiE g g g g16 g
+    g4 fis8 e d c
+    h h d d16 d e4
+    e8 c'4 c8 c8. c16
+    c8 c h h d, g %5
+    g4( a2)
+    a4 r r
+    d, d d
+    d8. d16 c4 c8 c
+    c8. c16 h4 h8 h %10
+    h8. h16 a4 fis'8([ d)]
+    g([ e)] d2
+    g,4 r r
+    R2.
+    r4 \mvTr g'\pE^\solo d8^\critnote c %15
+    c4( h8[ d)] c e
+    e4( d8[ g)] fis a
+    g8. d16 d4 r8 d
+    c'4. c8 h4
+    \appoggiatura h8 a4 a g %20
+    fis( c') h
+    h a r
+    R2.*15 %37
+    r4 \mvTr a8\fE^\tutti a a a
+    d,4 d fis8. fis16
+    g4 d fis %40
+    g8. g16 d4 r
+    g2.
+    cis,2 a'4
+    g8([ e)] cis4 cis
+    cis d r %45
+    r h'8 h h h
+    e,2 g4
+    a e g8. g16
+    a4 e g8. g16
+    fis4 h,4. h8 %50
+    h4 e r
+    c' c c
+    c,4. c8 c4
+    a' a r
+    R2.*4 %58
+    r4 r \mvTr g\fE^\tuttiE
+    c h( g) %60
+    R2.*10 %70
+    \mvTr a4\pE^\solo a8 a h c
+    h4 e, r
+    a d c
+    h8. e,16 e4 r8 f
+    f2 e8([ d)] %75
+    c e a4.( c8)
+    h([ d)] a4( gis)
+    a r r
+    R2.*2 %80
+    \mvTr h8.\fE^\tutti h16 h8 h h h
+    h8. h16 a4 a~
+    a e8 e gis gis
+    a a f f f4
+    e r r %85
+    c' c c8 c
+    c4 h8 f d g16 g
+    g8. c,16 c4 r
+    c' g8 g g4
+    c, r e8. e16 %90
+    f8 d g g g4
+    c, r r
+    R2.
+    r4 \mvTr e\pE^\solo c'8 a
+    g4( fis!) g %95
+    a8 g fis e d c
+    c4 h r
+    r e8([ c')] a g
+    g4( fis) g
+    fis8. c'16 c4 h %100
+    h8. a16 a4 r
+    R2.*6 %107
+    r4 a fis8 d
+    d4 cis r
+    cis( a') g %110
+    g fis r
+    R2.*3
+    r4 \mvTr d8\fE^\tutti d d d %115
+    cis4 d r
+    d8. d16 d8 d d d
+    cis4 d r
+    r \mvTr d\pE^\solo d
+    e e2 %120
+    d4 d d8 d
+    c!4 c4. c8
+    h h c4 c8 cis
+    d4 d r
+    r \mvTr g\fE^\tutti g8 g %125
+    g4 fis8 e d c16 c
+    h8 h d d16 d e4
+    e c' c
+    c h d,8 g
+    g8. g16 a4 a %130
+    a( g) e
+    d d r
+    d c2
+    c4 h8 h h h
+    h4 a r %135
+    g'8 e d2
+    g,4 r r
+    c2.
+    d4 r r
+    h2. %140
+    c4 r r
+    a2.
+    d4 r r
+    g8 c, d2
+    g,4 r r %145
+    c4( d2)
+    g4 r r
+    c,( d2)
+    g,4 h d
+    g h d %150
+    g, r r\fermata \bar "|." %151 finis
+  }
+}
+
+MementoAltoLyrics = \lyricmode {
+  Me -- men -- to Do -- mi -- ne
+  Da -- vid, et o -- mnis
+  man -- sue -- tu -- di -- nis e --
+  ius: si a -- scen -- de --
+  ro in le -- ctum stra -- ti %5
+  me --
+  i:
+  do -- nec in --
+  ve -- ni -- am lo -- cum
+  Do -- mi -- no, ta -- ber -- %10
+  na -- cu -- lum De --
+  o __ Ia --
+  cob.
+
+  Ec -- ce au -- %15
+  di -- vi -- mus
+  e -- am in
+  E -- phra -- tha: in --
+  ve -- ni -- mus
+  e -- am in %20
+  cam -- pis
+  Sil -- vae.
+
+  Sa -- cer -- do -- tes %38
+  tu -- i in -- du --
+  an -- tur iu -- %40
+  sti -- ti -- am,
+  et
+  san -- cti
+  tu -- i ex --
+  ul -- tent. %45
+  Pro -- pter Da -- vid
+  ser -- vum
+  tu -- um non a --
+  ver -- tas fa --
+  ci -- em Chri -- sti %50
+  tu -- i.
+  Iu -- ra -- vit
+  Do -- mi -- nus
+  Da -- vid:
+
+  De %59
+  fru -- ctu __ %60
+
+  Et fi -- li -- i e -- %71
+  o -- rum
+  us -- que in
+  sae -- cu -- lum, se --
+  de -- bunt %75
+  su -- per se --
+  dem tu --
+  am.
+
+  Quo -- ni -- am e -- le -- git %81
+  Do -- mi -- nus Si --
+  on in ha -- bi --
+  ta -- ti -- o -- nem si --
+  bi. %85
+  Haec re -- qui -- es
+  me -- a in sae -- cu -- lum
+  sae -- cu -- li:
+  hic ha -- bi -- ta --
+  bo, quo -- ni -- %90
+  am e -- le -- gi e --
+  am.
+
+  Vi -- du -- am
+  e -- ius %95
+  be -- ne -- di -- cens be -- ne --
+  di -- cam,
+  pau -- pe -- res
+  e -- ius
+  sa -- tu -- ra -- bo %100
+  pa -- ni -- bus.
+
+  Il -- luc pro -- %108
+  du -- cam
+  cor -- nu %110
+  Da -- vid,
+
+  In -- i -- mi -- cos %115
+  e -- ius
+  in -- du -- am con -- fes -- si --
+  o -- ne,
+  su -- per
+  i -- psum %120
+  au -- tem ef -- flo --
+  re -- bit san --
+  cti -- fi -- ca -- ti -- o
+  me -- a.
+  Glo -- ri -- a %125
+  Pa -- tri et Fi -- li -- o
+  et Spi -- ri -- tu -- i San --
+  cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et %130
+  nunc __ et
+  sem -- per:
+  et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, %135
+  a -- men, a --
+  men,
+  a --
+  men,
+  a -- %140
+  men,
+  a --
+  men,
+  a -- men, a --
+  men, %145
+  a --
+  men,
+  a --
+  men, a -- _
+  _ _ _ %150
+  men. %151 finis
+}

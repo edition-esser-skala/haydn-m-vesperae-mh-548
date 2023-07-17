@@ -178,54 +178,111 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "De profundis"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \DeProfundisViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \DeProfundisViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 1"
+  %           \new Voice = "SopranoI" { \dynamicUp \DeProfundisSopranoI }
+  %         }
+  %         \new Lyrics \lyricsto SopranoI \DeProfundisSopranoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoII" { \dynamicUp \DeProfundisSopranoII }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \DeProfundisSopranoIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \DeProfundisAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \DeProfundisAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DeProfundisOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DeProfundisBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "De profundis"
+    \section "5" "Memento"
     \addTocEntry
     \score { %\articulate
       <<
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+            % \transpose c g,
+            \partCombine #'(0 . 10) \MementoCornoI \MementoCornoII
+          >>
+        >>
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \DeProfundisViolinoI
+              \MementoViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \DeProfundisViolinoII
+              \MementoViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S 1"
-            \new Voice = "SopranoI" { \dynamicUp \DeProfundisSopranoI }
+            \new Voice = "SopranoI" { \dynamicUp \MementoSopranoI }
           }
-          \new Lyrics \lyricsto SopranoI \DeProfundisSopranoILyrics
+          \new Lyrics \lyricsto SopranoI \MementoSopranoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoII" { \dynamicUp \DeProfundisSopranoII }
+            \new Voice = "SopranoII" { \dynamicUp \MementoSopranoII }
           }
-          \new Lyrics \lyricsto SopranoII \DeProfundisSopranoIILyrics
+          \new Lyrics \lyricsto SopranoII \MementoSopranoIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \DeProfundisAlto }
+            \new Voice = "Alto" { \dynamicUp \MementoAlto }
           }
-          \new Lyrics \lyricsto Alto \DeProfundisAltoLyrics
+          \new Lyrics \lyricsto Alto \MementoAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DeProfundisOrgano
+            \MementoOrgano
           }
         >>
-        \new FiguredBass { \DeProfundisBassFigures }
+        \new FiguredBass { \MementoBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 60 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }
