@@ -539,3 +539,97 @@ BeatusSopranoILyrics = \lyricmode {
   men, a --
   men. %122 finis
 }
+
+DeProfundisSopranoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoDeProfundis
+    \mvTr e4.\p^\tuttiE e8 fis4 fis8 fis\f
+    g g a h c4. c8
+    h4 e4. dis8 dis e
+    fis4 a, g8 h h([ a)]
+    h4 r e8 e e g %5
+    fis([ e)] e4 e4. g8
+    fis([ e)] e4 r8 f f e
+    dis8. dis16 dis8 dis e c g([ fis)]
+    e4 r r2
+    r4 \mvTr h'4.\pE^\solo dis8 e c %10
+    h([ dis)] e([ c)] h a \appoggiatura h16 a8 g16 fis
+    g8. a16 h8 r c8. c16 h4
+    r8 e << \context Voice = "SopranoI" { \voiceOne g \oneVoice } \\ { e } >> ais, h h r4
+    R1*5 %18
+    r8 \mvTr d!\fE^\tutti d d16 d g8([ h,)] h h
+    c4 d8 e f f f4 %20
+    e8 a, h c d d16 d d4
+    c8 e d([ c16)] c h4 \mvTr gis8\pE^\solo a
+    h c16 c d8 e f4 d8 h
+    c a e([ d)] c4 a'8 c
+    c8. fis,!16 fis4 r8 g!16([ d']) \appoggiatura d8 c8. c16 %25
+    h4 g'2 d4
+    \mvTr d,\fE^\tutti e g( a8.) a16
+    a4 \mvTr d\pE^\solo cis8 c c8. c16
+    h8 h e \appoggiatura d16 cis8 h([ ais)] ais4
+    h8 h fis'4 d8 e16([ cis)] h8([ \grace d32 cis16)] h %30
+    h4 r r2
+    R1*4 %35
+    \mvTr e,8\p^\tutti e16 e e8 e16 e fis8. fis16 fis4
+    g8\f g a h16 h c2
+    h4 h8 e e dis dis e
+    fis8. a,16 a8 a g h h([ a)]
+    h4 r e4. g8 %40
+    fis e e4 e4. g8
+    fis([ e)] e4 r8 f4 e8
+    dis4 dis8 dis([ e)] c g([ fis!)]
+    e4 r e'4. d!8
+    \appoggiatura d16 c8 c r4 h4. a8 %45
+    \appoggiatura a16 g8 g r4 fis2
+    fis8 h4 h8 h a g([ fis)]
+    e4 r8 dis'([ e)] e e([ dis)]
+    e4 r r2\fermata \bar "|." %49 finis
+  }
+}
+
+DeProfundisSopranoILyrics = \lyricmode {
+  De pro -- fun -- dis cla --
+  ma -- vi ad te, Do -- mi --
+  ne: Do -- mi -- ne, ex --
+  au -- di vo -- cem me --
+  am. Fi -- ant au -- res %5
+  tu -- ae in -- ten --
+  den -- tes in vo -- cem
+  de -- pre -- ca -- ti -- o -- nis me --
+  ae.
+  Si in -- i -- qui -- %10
+  ta -- tes ob -- ser -- va -- ve -- ris
+  Do -- mi -- ne, Do -- mi -- ne,
+  quis su -- sti -- ne -- bit?
+
+  Su -- sti -- nu -- it a -- ni -- ma %19
+  me -- a in ver -- bum e -- %20
+  ius: spe -- ra -- vit a -- ni -- ma me --
+  a in Do -- mi -- no. A cu --
+  sto -- di -- a ma -- tu -- ti -- na us --
+  que ad no -- ctem spe -- ret
+  Is -- ra -- el in __ Do -- mi -- %25
+  no. Qui -- a
+  a -- pud Do -- mi --
+  num mi -- se -- ri -- cor -- di --
+  a: et co -- pi -- o -- sa
+  a -- pud e -- um re -- dem -- pti -- %30
+  o.
+
+  Glo -- ri -- a Pa -- tri et Fi -- li -- o %36
+  et Spi -- ri -- tu -- i San --
+  cto. Si -- cut e -- rat in
+  prin -- ci -- pi -- o et nunc et sem --
+  per et in %40
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men,
+  a -- men, a -- men, a --
+  men, a -- men,
+  a -- men, a -- men, %45
+  a -- men, a --
+  men, a -- men, a -- men, a --
+  men, a -- men, a --
+  men. %49 finis
+}

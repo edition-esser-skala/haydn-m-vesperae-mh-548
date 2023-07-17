@@ -532,3 +532,95 @@ BeatusSopranoIILyrics = \lyricmode {
   men, a --
   men. %122 finis
 }
+
+DeProfundisSopranoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoDeProfundis
+    \mvTr e4.\p^\tuttiE e8 e4 dis8 dis\f
+    e e fis g a4. a8
+    g4 g4. fis8 fis g
+    a4 fis g8 fis e4
+    dis r h'8 h h h %5
+    c4 c g4. h8
+    a([ g)] g4 r8 c c c
+    fis,!8. fis16 fis8 c' h e, e([ dis)]
+    e4 r r2
+    R1*4 %13
+    \mvTr fis8\pE^\solo fis g a a([ g)] r a
+    a a h c16 c c8([ h)] r d! %15
+    d h c d d([ e)] e4
+    r8 e e d16([ c)] h8 c h([ a16)] g
+    g4 r r2
+    r8 \mvTr h\fE^\tutti h h16 h h8([ g)] g g
+    g4 h8 c d h d4 %20
+    c8 e, gis a h gis16 gis h4
+    a8 h h([ a16)] a gis4 r
+    R1*4 %26
+    \mvTr d4\fE^\tuttiE e g( a8.) a16
+    a4 r r2
+    R1*3 %31
+    r8 \mvTr d\pE^\solo d d d([ c!)] c c
+    c8. h16 h8 h h8. a16 a8 a
+    g e' e4. g,16 g g4
+    fis r r2 %35
+    \mvTr e8\p^\tutti e16 e e8 e16 e e8. e16 dis4
+    e8\f e fis g16 g a2
+    g4 g8 g g fis fis g
+    a8. fis16 fis8 fis g fis e4
+    dis r h'4. h8 %40
+    c8. c16 c4 g4. h8
+    a([ g)] g4 r8 c4 c8
+    fis,!4 fis8 c'([ h)] e, e([ dis)]
+    e4 r h'4. h8
+    \appoggiatura h16 a8 a r4 fis4. dis16([ fis)] %45
+    \appoggiatura fis e8 e r4 e2
+    dis8 dis([ e)] fis g fis e([ dis)]
+    e4 r8 a([ h)] c g([ fis)]
+    e4 r r2\fermata \bar "|." %49 finis
+  }
+}
+
+DeProfundisSopranoIILyrics = \lyricmode {
+  De pro -- fun -- dis cla --
+  ma -- vi ad te, Do -- mi --
+  ne: Do -- mi -- ne, ex --
+  au -- di vo -- cem me --
+  am. Fi -- ant au -- res %5
+  tu -- ae in -- ten --
+  den -- tes in vo -- cem
+  de -- pre -- ca -- ti -- o -- nis me --
+  ae.
+
+  Qui -- a a -- pud te __ pro -- %14
+  pi -- ti -- a -- ti -- o est: __ et %15
+  pro -- pter le -- gem tu -- am
+  su -- sti -- nu -- i te, Do -- mi --
+  ne.
+  Su -- sti -- nu -- it a -- ni -- ma
+  me -- a in ver -- bum e -- %20
+  ius: spe -- ra -- vit a -- ni -- ma me --
+  a in Do -- mi -- no.
+
+  A -- pud Do -- mi -- %27
+  num
+
+  Et i -- pse re -- di -- met %32
+  Is -- ra -- el ex o -- mni -- bus in --
+  i -- qui -- ta -- ti -- bus e --
+  ius. %35
+  Glo -- ri -- a Pa -- tri et Fi -- li -- o
+  et Spi -- ri -- tu -- i San --
+  cto. Si -- cut e -- rat in
+  prin -- ci -- pi -- o et nunc et sem --
+  per et in %40
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men,
+  a -- men, a -- men, a --
+  men, a -- men,
+  a -- men, a -- men, %45
+  a -- men, a --
+  men, a -- men, a -- men, a --
+  men, a -- men, a --
+  men. %49 finis
+}

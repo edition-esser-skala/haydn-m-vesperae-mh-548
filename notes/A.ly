@@ -516,3 +516,95 @@ BeatusAltoLyrics = \lyricmode {
   men, a --
   men. %122 finis
 }
+
+DeProfundisAlto = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \autoBeamOff \tempoDeProfundis
+    \mvTr e4\p^\tuttiE c a h8 h\f
+    e e e e a,4. a8
+    e'4 r h8. h16 h4
+    r8 h cis dis e d c?4
+    h r g'8 g g g %5
+    a4 a, h4. h8
+    c4 c r8 a' a a,
+    h c h a g a h4
+    e r r2
+    R1*4 %13
+    \mvTr dis8\pE^\solo dis e fis fis([ e)] r g
+    fis fis g a16 a a8([ g)] r fis %15
+    g g a h h([ c)] c4
+    r8 c c h16([ a)] g8 a g([ fis16)] g
+    g4 r r2
+    r8 \mvTr g\fE^\tutti g g16 g f4 f8 f
+    e4 d8 c h d h4 %20
+    c8 c h a e' e16 e e4
+    a8 e a,8. a16 e'4 r
+    R1*4 %26
+    \mvTr d4\fE^\tuttiE e g( a8.) a16
+    a4 r r2
+    R1*3 %31
+    r8 \mvTr fis\pE^\solo fis fis fis4 fis8 a
+    a8. g16 g8 e dis8. dis16 dis8 fis
+    e g g4. e16 e e4
+    dis r r2 %35
+    \mvTr e8\p^\tutti e16 e c8 c16 c a8. a16 h4
+    e8\f e e e16 e a,2
+    e'4 e8 e h h h h
+    h8. h16 cis8 dis e d c4
+    h r g'4. g8 %40
+    a8. a,16 a4 h4. h8
+    c4 c r8 a'4 a,8
+    h([ c)] h a([ g)] a h4
+    e r g e
+    a,8 a r4 dis4. h8 %45
+    h e r4 a,( ais)
+    h8 h([ cis)] dis e a, h4
+    e r8 fis([ g)] e h4
+    e r r2\fermata \bar "|." %49 finis
+  }
+}
+
+DeProfundisAltoLyrics = \lyricmode {
+  De pro -- fun -- dis cla --
+  ma -- vi ad te, Do -- mi --
+  ne: Do -- mi -- ne, ex --
+  au -- di vo -- cem me --
+  am. Fi -- ant au -- res %5
+  tu -- ae in -- ten --
+  den -- tes in vo -- cem
+  de -- pre -- ca -- ti -- o -- nis me --
+  ae.
+
+  Qui -- a a -- pud te __ pro -- %14
+  pi -- ti -- a -- ti -- o est: __ et %15
+  pro -- pter le -- gem tu -- am
+  su -- sti -- nu -- i te, Do -- mi --
+  ne.
+  Su -- sti -- nu -- it a -- ni -- ma
+  me -- a in ver -- bum e -- %20
+  ius: spe -- ra -- vit a -- ni -- ma me --
+  a in Do -- mi -- no.
+
+  A -- pud Do -- mi -- %27
+  num
+
+  Et i -- pse re -- di -- met %32
+  Is -- ra -- el ex o -- mni -- bus in --
+  i -- qui -- ta -- ti -- bus e --
+  ius. %35
+  Glo -- ri -- a Pa -- tri et Fi -- li -- o
+  et Spi -- ri -- tu -- i San --
+  cto. Si -- cut e -- rat in
+  prin -- ci -- pi -- o et nunc et sem --
+  per et in %40
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men,
+  a -- men, a -- men, a --
+  men, a -- men,
+  a -- men, a -- men, %45
+  a -- men, a --
+  men, a -- men, a -- men, a --
+  men, a -- men, a --
+  men. %49 finis
+}

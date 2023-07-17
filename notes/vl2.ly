@@ -360,3 +360,59 @@ BeatusViolinoII = {
     <c e, g,>4 r r\fermata \bar "|." %122 finis
   }
 }
+
+DeProfundisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 4/4 \tempoDeProfundis
+    h8\p h e e e e dis dis\f
+    e e fis g a e4 a8
+    g e4 g8 h, fis' fis g
+    a4 fis h,8 fis' g( e)
+    fis dis16 fis h dis fis dis h8 h h e %5
+    c4 c g8 e g e'16 h
+    a8( g) g e' c16. f32 f16. a32 f8 c
+    fis,! a h c h e, e( dis)
+    e r g, a h e4( dis8)
+    e4 r8 a,\p h4 r8 fis' %10
+    h4 r8 g fis dis r fis
+    e h r g' dis16( e fis dis) e8 h'
+    ais4\fp e dis8 h'\f h, r
+    dis4\p e8 fis fis( e4) e8
+    fis a g fis fis( g) r a %15
+    d,! d( g) g g4 c16( e) e( a)
+    a8 a, a16( c) h a g8 e d( c)
+    h r h\f c d g4 fis8
+    g g, h' h, d' d, g' g,
+    r c16( g) g8 g g'16( f) g( f) g,-! h-! d-! f-! %20
+    e8 a,16( e) e8 e e'16( d) e( d) e,-! gis-! h-! d-!
+    c8 h \once \slurDashed h( a) gis gis\p e fis
+    gis a h c d16( c h c) h8 d
+    c e, fis! gis a16( gis a c) c,( h c e)
+    d e fis g a( fis) \once \slurDashed d( a') d8 g, \once \slurDashed e( fis) %25
+    g16( h, d g) h( g h d) g,( d h d) g( d) h-!\f d-!
+    g,( g') d-! h-! g( g') e-! c-! g( g') d-! h-! a( e') a-! g-!
+    fis( d') a fis d8 fis\p g( e) a( fis)
+    g( h4) g8 \once \slurDashed d( cis) r ais'
+    h( fis) cis'( ais) fis-! g-! d( e) %30
+    d r d\f e fis h4 ais8
+    h d,\p h16( d) fis( h) r8 d, fis16( d) c'( a)
+    a4 g8 h, r h dis16( fis) a( fis)
+    r8 h, e16( g) g( e') \once \slurDashed e( dis e dis) e8 e,
+    dis fis\f g( ais,) h h' \once \slurDashed c( a) %35
+    h,\p h e e e e dis dis\f
+    e e fis g a e4 a8
+    g h'4 g,8 h, fis' fis g
+    a4 fis h,8 fis' g( e)
+    fis dis16 fis h dis fis dis h8 h4 e8 %40
+    c4 c g8 e g e'16 h
+    a8( g) g e' c16. f32 f16. a32 f8 c
+    fis,! a h c h e, e dis
+    e16 h' c( h) r h h'( dis,) r e h( e) r e h'( d,)
+    r c e,( c') r c a'( c,) r h fis( h) r h fis'( a,) %45
+    r g h,( g') r e' g( e) r fis e( c) r fis e( cis)
+    r dis fis( h) r h, fis'( a) r h,-! c-! a-! g( e) fis( dis)
+    e h' c( h) r h h'( dis,) r e e,( c') g8( fis)\trill
+    e8 r a,4\p g r\fermata \bar "|." %49 finis
+  }
+}

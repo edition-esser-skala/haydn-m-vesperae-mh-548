@@ -9,6 +9,7 @@
 tempoDixit = \tempoMarkup "Maestoso"
 tempoConfitebor = \tempoMarkup "Vivace"
 tempoBeatus = \tempoMarkup "Allegro"
+tempoDeProfundis = \tempoMarkup "Andante"
 
 
 \include "notes/cor1.ly"
