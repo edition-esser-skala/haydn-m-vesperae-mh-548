@@ -1129,3 +1129,165 @@ MementoBassFigures = \figuremode {
   <6 4>2 <5 [3]>4 %150
   r2. %151 finis
 }
+
+SalveteOrganoSolo = {
+  \clef treble
+  \key b \major \time 4/4 \tempoSalvete
+  << \relative c' {
+    \partial 8 f8 <d f b>8~ \tiny q4.~ q \voiceOne <f a>8
+    <es a>4 <d b'> <f a>2
+    <a c>2. <f b>4
+    <f c'>2 <f b>4. <f a>8
+    <f b>4 r8 q <f c'>4 r8 q %5
+    c'4 b b2
+    <g b>1
+    <f a>8 <g b> <f a> <e g> \oneVoice \normalsize r16 c' c8\trill cis16( d es! e)
+    f( c' a f) c( a' f c) a f' c a g4\trill
+    f8 <a c> <f a> <g b> \voiceOne \tiny <a c>4. <es! f>8 %10
+    <d f>4 <f b> <f a>2
+    <f b>4 <f c'> <f b>8 <es a> <f b> <d f>
+    f4. es8 d4 <f b>
+    <g h>2 <g c>4 d'8 h
+    <f h d>4 <es c'> <g c>2 %15
+    <f c'>4 <f b> <g b>2
+    a8 c <f, b>4 \oneVoice \normalsize r16 f' f8\trill e16 b' g e
+    f c' a f e b' g e f( e g f e es d c)
+    \tiny \voiceOne <f, b>2.. <f a>8
+    <es a>4 <d b'> <f a>2 %20
+    <a c>2. <f b>4
+    <f c'>2 <f b>4. <g b>8
+    <a d>2 <g b>
+    <a d>4. <a c>8 b4. h8
+    <g c> <f h> <g c>4 <f c'> <f b> %25
+    <g b> <f a> \normalsize \oneVoice r16 f' f8\trill fis16( g as a)
+    b8 \noBeam \voiceOne \tiny <f, b> <f c'> <f b> \normalsize \oneVoice r16 c' c8\trill cis16( d es e)
+    f8 \noBeam \voiceOne \tiny <a, c> <f c'> <es a> \normalsize \oneVoice r16 f f8\trill fis16( g as a)
+    b8 \voiceOne \tiny <f b>4 <f as>8 <es g>4 <g c>
+    a c8 a <f b> <g c> <d b'> <c a'> %30
+    \oneVoice \normalsize r16 f f8\trill fis16( g as a) b8 \noBeam \voiceOne \tiny <f b> <g b> <es a>
+    \oneVoice \normalsize r16 f f8\trill fis16( g as a) b8 \noBeam \voiceOne \tiny <g b> <g c> <f a>
+    <f b> r <f a> r <f b> \oneVoice r r4\fermata \bar "|." %33 finis
+  } \\ \relative c' {
+    \tiny s8 s2.. c8
+    f2 c
+    f2. f8 d
+    c4 es d4. c8
+    d4 r8 d c4 r8 c %5
+    <c e>4. <d f>8 <c g'>4. <d f>8
+    e2 c
+    c8 d c4 s2
+    s1
+    s2 f4. c8 %10
+    b4 b8 d c2
+    b8 d c es d c b4
+    <f c'>2 <f b>4 d'
+    d2 c8 es <d g>4
+    g2 es %15
+    es4 d c2
+    <c f>4 d s2
+    s1
+    d2.. c8
+    f2 c %20
+    f2. f8 d
+    c4 es d4. d8
+    d2 d
+    d4. fis8 <d g>2
+    c8 d es4 es d %25
+    c2 s
+    s8 d c d s2
+    s8 f c c s2
+    s8 d4 b8 b4 es
+    <c f>2 d8 es f4 %30
+    s2 s8 d es c
+    s2 s8 d es c
+    d r c r d s4. %33 finis
+  } >>
+}
+
+SalveteOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoSalvete
+    \partial 8 r8 r \mvTr b\fE-\tutti d f d b d f
+    b b, d b f' a c a
+    f c a c f es' d b
+    a f a f b f d f
+    b b, r b' a a, r a' %5
+    g g, g' f e g e d
+    c c e g e c e c
+    f b, c c << { r a' b g a } \\ { f2 f8 } >>
+    r << { a } \\ { f } >> r << { f4. e8 } \\ { r a, b c } >>
+    f4 f, r8 f f' a %10
+    b f d b f' c'16 a f8 es!
+    d b a f' b, c d b
+    a g a f b b b' as
+    g g, g' f es c h g
+    c c es g c c, c' b! %15
+    a! f b d, es g es e
+    f a, b b' f r << { <g b> } \\ { f } >> r
+    << { <a c> } \\ { f } >> r << { <g b> } \\ { f } >> r << { <a c> } \\ { f } >> r << { a } \\ { f } >> r
+    b b, d f d b d f
+    b b, d b f' a c a %20
+    f c a c f es' d b
+    a f a f b, b'16 a b8 g
+    fis d fis d g d b' g
+    fis d fis d g g, g' f
+    es d c b! a a' b d, %25
+    es c f! f << {
+      r d' es c d
+      s4. r8 a b g
+      f s4. r8 d es c
+      d s4.
+    } \\ {
+      \once \tieDashed b'2~
+      b8 b a b f2~
+      f8 f a, f' b,2~
+      b8 b' b, d
+    } >> es es c es
+    f f a f b es, f f, %30
+    << {
+      r d' es c d s4.
+      r8 d es c d s4.
+    } \\ {
+      b2~ b8 b' es, f
+      b,2~ b8 g' es f
+    } >>
+    b r f r b,4 r\fermata \bar "|." %33 finis
+  }
+}
+
+SalveteBassFigures = \figuremode {
+  r8 r <8>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <5>
+  <9 4>4 <6> <5>2 \bassFigureExtendersOn
+  q q8 q \bassFigureExtendersOff <6>4
+  q <5> <3> <6>8 <5>
+  r2 <6> %5
+  <6! 4>4 <\t 3>8 <6 4> <6 5>4 \once \bassFigureExtendersOn q8 <6>
+  <7 _!>4. \bassFigureExtendersOn q8 <6 5>4. q8 \bassFigureExtendersOff
+  r <6> <6 4> <[5] _!> r2
+  r1
+  r2.. <6 5->8 %10
+  <8> <\t> <6>4 <5>8. \once \bassFigureExtendersOn q16 r8 <\t>
+  <6>4 q8 <7>4 <6>8 q4
+  q \once \bassFigureExtendersOn q8 <7>2 <\t>8
+  <_!>4. <\t>8 <6>4 q
+  <9 4> <6>8 <\t> <3>4. <\t>8 %15
+  <6 5>2 q4. \once \bassFigureExtendersOn q8
+  r <6>2..
+  r1
+  <8>2. \once \bassFigureExtendersOn q8 <5>
+  <9 4>4 <6> <5>2 \bassFigureExtendersOn %20
+  q q8 q \bassFigureExtendersOff <6>4
+  q <5>2.
+  <6>4. \bassFigureExtendersOn q8 <5>4. q8 \bassFigureExtendersOff
+  <6>4. <7 [_+]>8 r4. <4! 2>8
+  <6> <6!> <3> <\t> <6 5>2 %25
+  q1
+  r4 <6>2.
+  r4 <6>8 <7> r2
+  r4. <5->8 r2
+  <_!>4 <6>4. q8 <6 4> <5 [3]> %30
+  r2.. <7>8
+  r2. <6>4
+  r1 %33 finis
+}

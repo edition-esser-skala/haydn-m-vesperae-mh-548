@@ -852,3 +852,79 @@ MementoAltoLyrics = \lyricmode {
   _ _ _ %150
   men. %151 finis
 }
+
+SalveteAlto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoSalvete
+    \partial 8 \mvTr f8\fE^\tuttiE b,4 b b8([ d)] f4
+    b,4. b8 f'4 r8 f
+    f4 f f8([ es)] d b
+    a4. a8 b4 r
+    b8 b d b a4 a %5
+    c4. d8 c4 r
+    r r8 c' c4 c,8 e
+    f b, c4 f r
+    R1
+    r8 f f f f([ a,)] a4 %10
+    b4. b8 f'4 r8 es!
+    d([ b)] a f' b,([ c)] d([ b)]
+    a2 b4 r
+    g g8 f' es4 h
+    h( c8) c c4 r %15
+    a b g'4. e8
+    f f b8. b16 a4 r
+    R1
+    b,4 b b8([ d)] f f
+    b,4. b8 f'4 r8 f %20
+    f4 f f4. b,8
+    a4. a8 b4 r8 g'
+    fis4 fis r8 g g g
+    fis4. fis8 g4 r
+    r g f4. b8 %25
+    g es f8. f16 b,4 r
+    r8 b'([ a b)] f4 r
+    r8 f( a,4) b r
+    r8 b4( d8) es4 c
+    f r8 a([ b)] g f4 %30
+    b, r r8 b'([ es, f)]
+    b,4 r r8 g'([ es f)]
+    b4 f b, r\fermata \bar "|."
+  }
+}
+
+SalveteAltoLyrics = \lyricmode {
+  Sal -- ve -- te, flo -- res
+  mar -- ty -- rum, quos
+  lu -- cis ip -- so in
+  li -- mi -- ne
+  Chri -- sti in -- se -- cu -- tor %5
+  su -- stu -- lit,
+  ceu tur -- bo na --
+  scen -- tes ro -- sas.
+
+  Vos, pri -- ma Chri -- sti %10
+  vi -- cti -- ma, grex
+  im -- mo -- la -- to -- rum __
+  te -- ner,
+  a -- ram sub ip -- sam
+  sim -- pli -- ces, %15
+  pal -- ma et co --
+  ro -- nis lu -- di -- tis.
+
+  JE -- su, ti -- bi sit
+  glo -- ri -- a, qui %20
+  na -- tus es de
+  Vir -- gi -- ne, cum
+  Pa -- tre, et al -- mo
+  Spi -- ri -- tu, in
+  sem -- pi -- %25
+  ter -- na sae -- cu -- la.
+  A -- men,
+  a -- men,
+  a -- men, a --
+  men, a -- men, a -- %30
+  men, a --
+  men, a --
+  men, a -- men. %33 finis
+}

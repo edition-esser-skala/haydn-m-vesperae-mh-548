@@ -228,61 +228,105 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5" "Memento"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
+  %           % \transpose c g,
+  %           \partCombine #'(0 . 10) \MementoCornoI \MementoCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \MementoViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \MementoViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 1"
+  %           \new Voice = "SopranoI" { \dynamicUp \MementoSopranoI }
+  %         }
+  %         \new Lyrics \lyricsto SopranoI \MementoSopranoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoII" { \dynamicUp \MementoSopranoII }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \MementoSopranoIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \MementoAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \MementoAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \MementoOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \MementoBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "5" "Memento"
+    \section "6" "Salvete flores"
     \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #17
+      system-system-spacing.minimum-distance = #17
+      systems-per-page = #3
+    }
     \score { %\articulate
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "G" "" "1, 2" }
-            % \transpose c g,
-            \partCombine #'(0 . 10) \MementoCornoI \MementoCornoII
-          >>
-        >>
-        \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "vl"
-            \new Staff {
-              \set Staff.instrumentName = "1"
-              \MementoViolinoI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "2"
-              \MementoViolinoII
-            }
-          >>
-        >>
-        \new ChoirStaff <<
+        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
           \new Staff {
             \set Staff.instrumentName = "S 1"
-            \new Voice = "SopranoI" { \dynamicUp \MementoSopranoI }
+            \new Voice = "SopranoI" { \dynamicUp \SalveteSopranoI }
           }
-          \new Lyrics \lyricsto SopranoI \MementoSopranoILyrics
+          \new Lyrics \lyricsto SopranoI \SalveteSopranoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoII" { \dynamicUp \MementoSopranoII }
+            \new Voice = "SopranoII" { \dynamicUp \SalveteSopranoII }
           }
-          \new Lyrics \lyricsto SopranoII \MementoSopranoIILyrics
+          \new Lyrics \lyricsto SopranoII \SalveteSopranoIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \MementoAlto }
+            \new Voice = "Alto" { \dynamicUp \SalveteAlto }
           }
-          \new Lyrics \lyricsto Alto \MementoAltoLyrics
+          \new Lyrics \lyricsto Alto \SalveteAltoLyrics
         >>
-        \new StaffGroup <<
+        \new PianoStaff \with { \setGroupDistance #11 #11 } <<
+          \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+          \new Staff { \SalveteOrganoSolo }
           \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "org" "b" }
+            \set Staff.instrumentName = "b"
             % \transpose c c,
-            \MementoOrgano
+            \SalveteOrgano
           }
         >>
-        \new FiguredBass { \MementoBassFigures }
+        \new FiguredBass { \SalveteBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

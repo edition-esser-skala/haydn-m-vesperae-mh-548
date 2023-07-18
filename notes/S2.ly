@@ -869,3 +869,79 @@ MementoSopranoIILyrics = \lyricmode {
   _ _ _ %150
   men. %151 finis
 }
+
+SalveteSopranoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoSalvete
+    \partial 8 \mvTr f8\fE^\tuttiE d4 d d8([ f)] b([ a)]
+    c4( b8.) b16 a4 r8 f
+    a4 a a b8 d
+    c4. c8 b4 r
+    f8 b f f f4 f %5
+    e4. f8 g4 r8 g
+    b4 g r r8 g
+    f g f([ e)] f4 r
+    R1
+    r8 a f g a([ c)] es,!4 %10
+    d( b'8.) a16 a4 r8 f
+    f4 c'8 a b([ f)] f([ d)]
+    c2 b4 r
+    g' g8 g g4 g8([ d')]
+    d4( c8) c c4 r %15
+    f,4. b8 b4. g8
+    a c d8. d16 c4 r
+    R1
+    d,4 d d8([ f)] b a
+    c4( b8.) b16 a4 r8 f %20
+    a4 a a b8([ d)]
+    c4. c8 b4 r8 b
+    a4 a r8 b b b
+    a4. a8 g4 r8 g
+    g h c2 b4 %25
+    b( a8) a b4 r
+    r8 d([ c b)] a4 r
+    r8 a( c4) b r
+    r8 d,4( f8) es4 g
+    a! r8 c([ b)] c b([ a)] %30
+    b4 r r8 d([ es c)]
+    b4 r r8 b([ c a)]
+    b4 a b r\fermata \bar "|." %33 finis
+  }
+}
+
+SalveteSopranoIILyrics = \lyricmode {
+  Sal -- ve -- te, flo -- res __
+  mar -- ty -- rum, quos
+  lu -- cis ip -- so in
+  li -- mi -- ne
+  Chri -- sti in -- se -- cu -- tor %5
+  su -- stu -- lit, ceu
+  tur -- bo na --
+  scen -- tes ro -- sas.
+
+  Vos, pri -- ma Chri -- sti %10
+  vi -- cti -- ma, grex
+  im -- mo -- la -- to -- rum __
+  te -- ner,
+  a -- ram sub ip -- sam __
+  sim -- pli -- ces, %15
+  pal -- ma et co --
+  ro -- nis lu -- di -- tis.
+
+  JE -- su, ti -- bi sit
+  glo -- ri -- a, qui %20
+  na -- tus es de __
+  Vir -- gi -- ne, cum
+  Pa -- tre, et al -- mo
+  Spi -- ri -- tu, in
+  sem -- pi -- ter -- na %25
+  sae -- cu -- la.
+  A -- men,
+  a -- men,
+  a -- men, a --
+  men, a -- men, a -- %30
+  men, a --
+  men, a --
+  men, a -- men. %33 finis
+}
