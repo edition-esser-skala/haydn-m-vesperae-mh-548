@@ -1055,7 +1055,7 @@ MagnificatAltoLyrics = \lyricmode {
   me -- us in
   De -- o __
   sa -- lu -- ta --
-  ri me --
+  ri __ me --
   o. %25
 
   Ec -- ce e -- nim ex %32
