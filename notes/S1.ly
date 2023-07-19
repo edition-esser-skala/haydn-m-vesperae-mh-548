@@ -946,3 +946,220 @@ SalveteSopranoILyrics = \lyricmode {
   men, a --
   men, a -- men. %33 finis
 }
+
+MagnificatSopranoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoMagnificat
+    \mvTr f2.\fE^\tuttiE
+    g
+    a4. f8 f4
+    R2.
+    a2 a8 a %5
+    f2 g4
+    a( g4.) g8
+    f4 r r
+    R2.*17 %25
+    \mvTr f'2\pE^\solo \appoggiatura e16 d8 c16([ h)]
+    c8.([ d16)] e4 r8 e
+    g,4.( a8) g([ f)]
+    f4 e r8 e
+    d4( f') h, %30
+    d8([ c)] c4 r
+    g8 f e([ g)] c h
+    h4( a) r8 f'
+    f([ h,)] h4 r8 f'
+    f([ h,)] h4 r %35
+    \mvTr c4.\fE^\tutti c8 d d
+    e f e4( d)
+    c r r
+    R2.*9 %47
+    \mvTr a4\p^\tutti a h
+    c( d) e
+    g2( f4) %50
+    e r r
+    R2.*7 %58
+    r4 r r8 \mvTr f\p^\tuttiE
+    f4. a,8 a4 %60
+    a g r
+    a\f a a
+    f'8. d16 d4 r
+    cis cis8([ e)] g e
+    f4 d r8 f %65
+    f([ es)] es4 es
+    es d r
+    d4. es8 d c!
+    c4 b r8 b
+    b8. cis,16 cis4 r8 b' %70
+    b4 d, r8 b'
+    b4 e,! r
+    g8([ cis)] cis([ e)] e([ g)]
+    g2( f4)
+    e d( cis8.) d16 %75
+    d4 r r
+    R2.*4 %80
+    r4 f,2
+    g4. g8 b4
+    b( a) \mvTr a\pE^\solo
+    b2 d4
+    d c r8 f %85
+    f8. a,16 a4 r8 f'
+    f4 b, r8 d
+    f,2( es4)
+    d r r
+    r r d' %90
+    f2 as,4
+    as8. g16 g4 r
+    g'4.( es8) b g
+    g4 f r
+    es'2 es4 %95
+    es2.~
+    es8[ a,] a4 r
+    d b fis
+    g4.( g'8) es c
+    b2( \grace d8 c4) %100
+    b r r
+    R2.*15 %116
+    \mvTr a4.\fE^\tutti a8 a4
+    a2.
+    a2 g4
+    a4. f8 f4 %120
+    R2.
+    a2 a4
+    f2 g4
+    a g2
+    f4 r r %125
+    R2.
+    r4 c' c
+    c4. d8 c b
+    b8. a16 a4 a
+    d r d %130
+    \appoggiatura f8 es4 es r
+    d8 d d d16 d d8 g
+    g([ c,)] c4 r
+    R2.*2 %135
+    \mvTr f2\pE^\solo \appoggiatura e16 d8([ c16 h)]
+    \appoggiatura { d16[ c h] } c8.([ d16)] e4 r
+    e2 f4
+    g( c,2)
+    b4 a( g) %140
+    f r r
+    r \mvTr f'\fE^\tutti f,
+    r f' f,
+    r g'4. b,8
+    a c a4( g) %145
+    c r c~
+    c8 f a,4( g)
+    f8 c'[ a f a c]
+    f2.~
+    f %150
+    f4 r r
+    R2.\fermata \bar "|." %152 finis
+  }
+}
+
+MagnificatSopranoILyrics = \lyricmode {
+  Ma --
+  gni --
+  _ fi -- cat
+
+  a -- ni -- ma %5
+  me -- a
+  Do -- mi --
+  num:
+
+  Qui -- a re -- %26
+  spe -- xit hu --
+  mi -- li --
+  ta -- tem an --
+  cil -- lae %30
+  su -- ae:
+  ec -- ce e -- nim ex
+  hoc __ be --
+  a -- tam me
+  di -- cent %35
+  o -- mnes ge -- ne --
+  ra -- ti -- o --
+  nes.
+
+  Et san -- ctum %48
+  no -- men
+  e -- %50
+  ius.
+
+  Ti -- %59
+  men -- ti -- bus %60
+  e -- um.
+  Fe -- cit po --
+  ten -- ti -- am
+  in bra -- chi -- o
+  su -- o: dis -- %65
+  per -- sit su --
+  per -- bos
+  men -- te cor -- dis
+  su -- i. De --
+  po -- su -- it po -- %70
+  ten -- tes de
+  se -- de
+  et __ ex -- ul --
+  ta --
+  vit hu -- mi -- %75
+  les.
+
+  E -- %81
+  su -- ri -- en --
+  tes __ im --
+  ple -- vit
+  bo -- nis: et %85
+  di -- vi -- tes di --
+  mi -- sit in --
+  a --
+  nes.
+  Su -- %90
+  sce -- pit
+  Is -- ra -- el
+  pu -- e -- rum
+  su -- um,
+  re -- cor -- %95
+  da --
+  tus
+  mi -- se -- ri --
+  cor -- di -- ae
+  su -- %100
+  ae.
+
+  Glo -- ri -- a %117
+  Pa --
+  tri et
+  Fi -- li -- o %120
+
+  et Spi --
+  ri -- tu --
+  i San --
+  cto. %125
+
+  Si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc et %130
+  sem -- per,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum,
+
+  a -- men, %136
+  a -- men,
+  a -- men,
+  a --
+  men, a -- %140
+  men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, a -- %145
+  men, a --
+  men, a --
+  men, a --
+  _
+  %150
+  men. %151 finis
+}

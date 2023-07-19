@@ -928,3 +928,216 @@ SalveteAltoLyrics = \lyricmode {
   men, a --
   men, a -- men. %33 finis
 }
+
+MagnificatAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoMagnificat
+    \mvTr f2.\fE^\tuttiE
+    g
+    a4. f8 f4
+    R2.
+    a2 a8 a %5
+    f2 g4
+    a( g4.) g8
+    f4 r r
+    R2.*8 %16
+    r4 r \mvTr c\pE^\solo
+    b'2 \appoggiatura a16 g8([ f16 e)]
+    f8.([ g16)] a4 r
+    c4.( d8) c b %20
+    b4 a r8 a
+    g4.( b8) g([ f)]
+    e([ g)] c,([ e)] f([ a)]
+    g([ c)] b4( a)
+    g r r %25
+    R2.*6 %31
+    e8 d c([ e)] e g
+    g4( f) r8 a,
+    h([ f')] f4 r8 d
+    h([ f')] f4 r %35
+    \mvTr e4.\fE^\tutti e8 h g
+    c f g2
+    c,4 r r
+    R2.*9 %47
+    \mvTr c4\p^\tuttiE c c
+    c2 c4
+    g( a h) %50
+    c r r
+    R2.*7 %58
+    r4 r r8 \mvTr b\p^\tuttiE
+    h4. h8 h4 %60
+    c c r
+    cis\f cis cis
+    d8. f16 f4 r
+    a a a8 a
+    d,4 f r8 f %65
+    f4 f f
+    f b, r
+    d fis d8 d
+    d4 g r8 b
+    b8. cis,16 cis4 r8 b' %70
+    b4 d, r8 b'
+    b4 e,! r
+    R2.
+    a,4 cis8 cis d4
+    b' a,4. a8 %75
+    d4 r r
+    R2.*4 %80
+    r4 f2
+    g4. g8 b4
+    b( a) r
+    R2.*21 %104
+    r4 \mvTr b2~\pE^\solo %105
+    b4 c a
+    a8. g16 g4 g~
+    g b g
+    g f r
+    a8. f16 f4 r %110
+    a2.
+    g8([ a b g)] e g
+    f4 a2
+    g4 g( f8.) f16
+    e4 r r %115
+    R2.
+    \mvTr a4.\fE^\tutti a8 a4
+    a2.
+    a2 g4
+    a4. f8 f4 %120
+    R2.
+    a2 a4
+    f2 g4
+    a g2
+    f4 r r %125
+    R2.
+    r4 f f
+    e4. c8 c c
+    d8. d16 d4 d
+    b r b %130
+    a a r
+    b8 b b b16 b h8 h
+    c4 c r
+    \mvTr b'!2\pE^\solo \appoggiatura a16 g8([ f16 e)]
+    \appoggiatura { g16[ f e] } f8.([ g16)] a4 r %135
+    R2.*2
+    c,2 d4
+    e2( f4)
+    b, c2 %140
+    f,4^\critnote r r
+    r \mvTr f'\fE^\tutti f
+    r f f
+    r c e
+    f8 a, c2 %145
+    a4 r c(
+    f8) a, c2
+    f8 c'[ a f a c]
+    f,2.~
+    f %150
+    f4 r r
+    R2.\fermata \bar "|." %152 finis
+  }
+}
+
+MagnificatAltoLyrics = \lyricmode {
+  Ma --
+  gni --
+  _ fi -- cat
+
+  a -- ni -- ma %5
+  me -- a
+  Do -- mi --
+  num:
+
+  Et %17
+  ex -- ul --
+  ta -- vit
+  Spi -- ri -- tus %20
+  me -- us in
+  De -- o __
+  sa -- lu -- ta --
+  ri me --
+  o. %25
+
+  Ec -- ce e -- nim ex %32
+  hoc __ be --
+  a -- tam me
+  di -- cent %35
+  o -- mnes ge -- ne --
+  ra -- ti -- o --
+  nes.
+
+  Et san -- ctum
+  no -- men
+  e -- %50
+  ius.
+
+  Ti --
+  men -- ti -- bus %60
+  e -- um.
+  Fe -- cit po --
+  ten -- ti -- am
+  in bra -- chi -- o
+  su -- o: dis -- %65
+  per -- sit su --
+  per -- bos
+  men -- te cor -- dis
+  su -- i. De --
+  po -- su -- it po -- %70
+  ten -- tes de
+  se -- de
+
+  et ex -- ul -- ta --
+  vit hu -- mi -- %75
+  les.
+
+  E -- %81
+  su -- ri -- en --
+  tes. __
+
+  Si -- %105
+  cut lo --
+  cu -- tus est ad __
+  pa -- tres
+  no -- stros,
+  A -- bra -- ham %110
+  et
+  se -- mi -- ni
+  e -- ius
+  in sae -- cu --
+  la. %115
+
+  Glo -- ri -- a
+  Pa --
+  tri et
+  Fi -- li -- o %120
+
+  et Spi --
+  ri -- tu --
+  i San --
+  cto. %125
+
+  Si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc et %130
+  sem -- per,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum,
+  a -- men,
+  a -- men, %135
+
+  a -- men, %138
+  a --
+  men, a -- %140
+  men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, a -- %145
+  men, a --
+  men, a --
+  men, a --
+  _
+  %150
+  men. %151 finis
+}

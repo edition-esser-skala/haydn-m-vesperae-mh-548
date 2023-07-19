@@ -285,48 +285,105 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "6" "Salvete flores"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #17
+  %     system-system-spacing.minimum-distance = #17
+  %     systems-per-page = #3
+  %   }
+  %   \score { %\articulate
+  %     <<
+  %       \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 1"
+  %           \new Voice = "SopranoI" { \dynamicUp \SalveteSopranoI }
+  %         }
+  %         \new Lyrics \lyricsto SopranoI \SalveteSopranoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S 2"
+  %           \new Voice = "SopranoII" { \dynamicUp \SalveteSopranoII }
+  %         }
+  %         \new Lyrics \lyricsto SopranoII \SalveteSopranoIILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \SalveteAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \SalveteAltoLyrics
+  %       >>
+  %       \new PianoStaff \with { \setGroupDistance #11 #11 } <<
+  %         \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
+  %         \new Staff { \SalveteOrganoSolo }
+  %         \new Staff {
+  %           \set Staff.instrumentName = "b"
+  %           % \transpose c c,
+  %           \SalveteOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \SalveteBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 80 }
+  %   }
+  % }
   \bookpart {
-    \section "6" "Salvete flores"
+    \section "7" "Magnificat"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #17
-      system-system-spacing.minimum-distance = #17
-      systems-per-page = #3
-    }
     \score { %\articulate
       <<
-        \new ChoirStaff \with { \setGroupDistance #12 #13 } <<
+        \new StaffGroup \with { \smallGroupDistance } <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
+            % \transpose c f,
+            \partCombine #'(0 . 10) \MagnificatCornoI \MagnificatCornoII
+          >>
+        >>
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MagnificatViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MagnificatViolinoII
+            }
+          >>
+        >>
+        \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S 1"
-            \new Voice = "SopranoI" { \dynamicUp \SalveteSopranoI }
+            \new Voice = "SopranoI" { \dynamicUp \MagnificatSopranoI }
           }
-          \new Lyrics \lyricsto SopranoI \SalveteSopranoILyrics
+          \new Lyrics \lyricsto SopranoI \MagnificatSopranoILyrics
 
           \new Staff {
             \set Staff.instrumentName = "S 2"
-            \new Voice = "SopranoII" { \dynamicUp \SalveteSopranoII }
+            \new Voice = "SopranoII" { \dynamicUp \MagnificatSopranoII }
           }
-          \new Lyrics \lyricsto SopranoII \SalveteSopranoIILyrics
+          \new Lyrics \lyricsto SopranoII \MagnificatSopranoIILyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \SalveteAlto }
+            \new Voice = "Alto" { \dynamicUp \MagnificatAlto }
           }
-          \new Lyrics \lyricsto Alto \SalveteAltoLyrics
+          \new Lyrics \lyricsto Alto \MagnificatAltoLyrics
         >>
-        \new PianoStaff \with { \setGroupDistance #11 #11 } <<
-          \set PianoStaff.instrumentName = \markup \center-column { "org" "solo" }
-          \new Staff { \SalveteOrganoSolo }
+        \new StaffGroup <<
           \new Staff {
-            \set Staff.instrumentName = "b"
+            \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \SalveteOrgano
+            \MagnificatOrgano
           }
         >>
-        \new FiguredBass { \SalveteBassFigures }
+        \new FiguredBass { \MagnificatBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 80 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

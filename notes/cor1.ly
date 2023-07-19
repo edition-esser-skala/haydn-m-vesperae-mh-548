@@ -256,3 +256,125 @@ MementoCornoI = {
     g4 c r\fermata \bar "|." %151 finis
   }
 }
+
+MagnificatCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoMagnificat
+    g'4\fE c e
+    d2 d4
+    e r g8 e
+    e2.
+    e4 e e %5
+    e2 r4
+    r r d
+    c8 c e g e c
+    g4 r d'
+    c r e %10
+    d r \pao g,
+    g r r
+    r c c
+    r c c
+    r d d %15
+    e e8 e d d
+    \pa c g \pd c4 r
+    R2.*7 %24
+    r4 d\fE d %25
+    \pao d r r
+    R2.*4 %30
+    r4 r \pao d\fE
+    d r r
+    R2.*3 %35
+    \pa d8\fE d d d d d
+    g e d d d d
+    d4 d \pd r
+    r g g
+    r g g %40
+    r \pa d d \pd
+    r \pa d8 d d d \pd
+    d4 r r
+    R2.*3 %46
+    r4 r8 \pa g,\p g g \pd
+    g2.~
+    g2 d'4
+    \pa d d8 d d d \pd %50
+    d4 d\f d
+    d r r
+    R2.*2
+    r4 r c\p %55
+    c2.~
+    c
+    c~
+    c2 \pao c4
+    e\f e8\p e e e %60
+    e4 d r
+    e8\f e e e e e
+    e e e e e e
+    e e e e e e
+    e e e e e e %65
+    c c c c c c
+    c c c4 r
+    R2.
+    r4 \pa d d \pd
+    r \pa d d \pd %70
+    r \pa d d \pd
+    r \pa d d
+    d \pd r r
+    R2.
+    r4 \pa e,8 e e e \pd %75
+    e4 r r
+    R2.*3
+    r4 e'8 e e e %80
+    c4 c r
+    r r \pao d
+    d c r
+    c2.\p
+    c %85
+    r4 c c
+    r c c
+    c2 r4
+    r d\f e
+    f r r %90
+    R2.*3
+    r4 \pa c\p c \pd
+    c2. %95
+    c
+    c2 r4
+    R2.*5 %102
+    r4 c2\f
+    r4 \pa c c
+    c \pd r r %105
+    R2.*9 %114
+    r4 e\fE d %115
+    d2 \pao g,4
+    c2.
+    c
+    r4 c d
+    e c8 c c c %120
+    c4 e8 e e e
+    R2.*2
+    g4 f d
+    r8 c e g e c %125
+    g4 r d'
+    e r e
+    d r d
+    c r8 c c c
+    c4 r8 c c c %130
+    c4 c8 c c c
+    c4 \pa c8 c d d \pd
+    d g, g g g4
+    R2.*7 %140
+    r4 \pao g\fE c
+    r c c
+    r c c
+    \pao g r r
+    R2. %145
+    r4 c d
+    e8 g e e d d
+    c4 c c
+    c r \pa g
+    c8 e g, c e, g %150
+    c4 \pd c c
+    c r r\fermata \bar "|." %152 finis
+  }
+}

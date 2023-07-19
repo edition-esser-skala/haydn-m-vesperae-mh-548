@@ -12,6 +12,7 @@ tempoBeatus = \tempoMarkup "Allegro"
 tempoDeProfundis = \tempoMarkup "Andante"
 tempoMemento = \tempoMarkup "Allegretto"
 tempoSalvete = \tempoMarkup "Allegrino"
+tempoMagnificat = \tempoMarkup "Moderato"
 
 
 \include "notes/cor1.ly"

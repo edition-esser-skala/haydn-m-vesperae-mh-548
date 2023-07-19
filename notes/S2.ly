@@ -945,3 +945,206 @@ SalveteSopranoIILyrics = \lyricmode {
   men, a --
   men, a -- men. %33 finis
 }
+
+MagnificatSopranoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoMagnificat
+    \mvTr f2.\fE^\tuttiE
+    g
+    a4. f8 f4
+    R2.
+    a2 a8 a %5
+    f2 g4
+    a( g4.) g8
+    f4 r r
+    R2.*27 %35
+    \mvTr g4.\fE^\tuttiE g8 g h
+    c d c4( h)
+    c r r
+    R2.*4 %42
+    r4 \mvTr e,8([\pE^\solo g)] c([ e)]
+    g4.( e8) f[( d)]
+    e4.( c8) d([ h)] %45
+    c([ g)] g4 r8 h
+    c g g4 r
+    \mvTr f\p^\tutti f d
+    e( g) c
+    e2( d4) %50
+    c r r
+    r \mvTr e\pE^\solo e
+    f4.( e8) d([ c)]
+    c4.( d8) c b!
+    b4 a r %55
+    f'2 a,4
+    b8. f16 f4 r
+    f'4.( g8) f([ es)]
+    es8. d16 d4 r8 \mvTr d\p^\tutti
+    a4. f8 f4 %60
+    f e r
+    e\f e a
+    a8. a16 a4 r
+    a a8([ cis)] e cis
+    d([ a)] a4 r8 d %65
+    c!4 c c
+    c b r
+    a4. a8 a a
+    a4 g r8 b
+    b8. cis,16 cis4 r8 b' %70
+    b4 d, r8 b'
+    b4 e,! r
+    e8([ g)] g([ cis)] cis([ e)]
+    e2( a,4)
+    g f( e8.) d16 %75
+    d4 r r
+    R2.*4 %80
+    r4 f2
+    g4. g8 b4
+    b( a) r
+    R2.*21 %104
+    r4 \mvTr d2~\pE^\solo %105
+    d4 es c
+    c8. b16 b4 b~
+    b d b
+    b a r
+    f'8. a,16 a4 r %110
+    f'2.
+    e8([ f g e)] c b
+    a4 c2
+    b4 b( a8.) a16
+    g4 r r %115
+    R2.
+    \mvTr a4.\fE^\tutti a8 a4
+    a2.
+    a2 g4
+    a4. f8 f4 %120
+    R2.
+    a2 a4
+    f2 g4
+    a g2
+    f4 r r %125
+    R2.
+    r4 a a
+    g4. g8 g g
+    f8. f16 f4 f
+    f r f %130
+    c' c r
+    f,8 f f f16 f f8 f
+    e!4 e r
+    R2.*4 %137
+    \mvTr c'2\pE^\solo h4
+    b2( a4)
+    g f( e) %140
+    f r r
+    r \mvTr c'\fE^\tutti f
+    r c f
+    r b,4. g8
+    f f f4( e) %145
+    f r g(
+    a8) c f,4( e)
+    f8 c'[ a f a c]
+    a2.~
+    a %150
+    a4 r r
+    R2.\fermata \bar "|." %152 finis
+  }
+}
+
+MagnificatSopranoIILyrics = \lyricmode {
+  Ma --
+  gni --
+  _ fi -- cat
+
+  a -- ni -- ma %5
+  me -- a
+  Do -- mi --
+  num:
+
+  O -- mnes ge -- ne --
+  ra -- ti -- o --
+  nes.
+
+  Qui -- a __ %43
+  fe -- cit __
+  mi -- hi __ %45
+  ma -- gna qui
+  po -- tens est,
+  et san -- ctum
+  no -- men
+  e -- %50
+  ius.
+  Et mi --
+  se -- ri --
+  cor -- di -- a
+  e -- ius %55
+  a pro --
+  ge -- ni -- e
+  in __ pro --
+  ge -- ni -- es ti --
+  men -- ti -- bus %60
+  e -- um.
+  Fe -- cit po --
+  ten -- ti -- am
+  in bra -- chi -- o
+  su -- o: dis -- %65
+  per -- sit su --
+  per -- bos
+  men -- te cor -- dis
+  su -- i. De --
+  po -- su -- it po -- %70
+  ten -- tes de
+  se -- de
+  et __ ex -- ul --
+  ta --
+  vit hu -- mi -- %75
+  les.
+
+  E -- %81
+  su -- ri -- en --
+  tes. __
+
+  Si -- %105
+  cut lo --
+  cu -- tus est ad __
+  pa -- tres
+  no -- stros,
+  A -- bra -- ham %110
+  et
+  se -- mi -- ni
+  e -- ius
+  in sae -- cu --
+  la. %115
+
+  Glo -- ri -- a
+  Pa --
+  tri et
+  Fi -- li -- o %120
+
+  et Spi --
+  ri -- tu --
+  i San --
+  cto. %125
+
+  Si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc et %130
+  sem -- per,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum,
+
+  a -- men, %138
+  a --
+  men, a -- %140
+  men,
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, a -- %145
+  men, a --
+  men, a --
+  men, a --
+  _
+  %150
+  men. %151 finis
+}
