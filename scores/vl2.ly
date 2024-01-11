@@ -13,7 +13,7 @@
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino I"
-          \DixitViolinoI
+          \DixitViolinoII
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborViolinoI }
+        \new Staff { \ConfiteborViolinoII }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusViolinoI }
+        \new Staff { \BeatusViolinoII }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DeProfundisViolinoI }
+        \new Staff { \DeProfundisViolinoII }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MementoViolinoI }
+        \new Staff { \MementoViolinoII }
       >>
     }
     \tacet "section" "Salvete flores"
@@ -60,7 +60,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatViolinoI }
+        \new Staff { \MagnificatViolinoII }
       >>
     }
   }
